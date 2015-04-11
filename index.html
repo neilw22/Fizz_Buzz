@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fizz Buzz Assignement</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript">
+
+$(document).ready(function() {
+
+$(".main-div").append(function() {
+	for (var Number = 1; Number < 101; Number++) {
+	if (((Number % 3)+(Number % 5)) == 0) {$(".main-div").append(" Fizz-Buzz ");}
+	else if (Number % 3 == 0) {$(".main-div").append(" Fizz ");}
+	else if (Number % 5 == 0) {$(".main-div").append(" Buzz ");}
+	else {$(".main-div").append(Number+" ");}
+	}
+		});
+
+});
+
+	</script>
+</head>
+<body>
+	<div class="main-div">
+		<h1>Fizz Buzz</h1>
+	</div>
+</body>
+</html>
