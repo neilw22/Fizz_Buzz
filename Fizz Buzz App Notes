@@ -1,0 +1,21 @@
+Fizz Buzz App Notes
+
+If Statements
+
+if (((Number % 3)+(Number % 5)) == 0) {console.log("Fizz-Buzz");}
+else if (Number % 3 == 0) {console.log("Fizz");}
+else if (Number % 5 == 0) {console.log("Buzz");}
+else {console.log(Number);}
+
+
+For Loop
+
+for (var Number = 1; Number === 100; Number++)  {If Statements}
+
+
+for (var Number = 1; Number < 101; Number++) {
+	if (((Number % 3)+(Number % 5)) == 0) {console.log("Fizz-Buzz");}
+	else if (Number % 3 == 0) {console.log("Fizz");}
+	else if (Number % 5 == 0) {console.log("Buzz");}
+	else {console.log(Number);}
+	}
